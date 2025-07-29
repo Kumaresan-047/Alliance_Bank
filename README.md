@@ -1,101 +1,118 @@
-<<<<<<< HEAD
-# alliance-bank
-=======
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+Alliance Bank – Technology & Architecture Overview
+1. Project Overview
+The Alliance Bank Mobile Application is a cross-platform banking app built using React Native. It provides key features like Digital Currency Investment (DCI) indicative prices, multi-currency support, dual currency investment forms, and secure navigation between banking modules.
 
-# Getting Started
+The app is designed for scalability, modularity, and a high-quality user experience in line with industry standards for financial applications.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+2. Technology Stack
+Core Framework & Platform
+React Native (v0.80.2): Enables cross-platform development for iOS & Android using JavaScript/TypeScript.
 
-## Step 1: Start Metro
+React (v19.1.0): Used for building UI components in a declarative way.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+TypeScript (v5.0.4): Ensures type safety and improves code maintainability.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+Navigation & Routing
+@react-navigation/native (v7.1.16): Core navigation library for handling app routing.
 
-```sh
-# Using npm
-npm start
+@react-navigation/stack (v7.4.4): For stack-based screen transitions.
 
-# OR using Yarn
-yarn start
-```
+@react-navigation/native-stack (v6.9.17): Native navigation for better performance.
 
-## Step 2: Build and run your app
+UI Components & Design
+react-native-elements (v3.4.3): Pre-built components like Card, Icon, and styled inputs for fast UI development.
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+react-native-vector-icons (v10.3.0): Adds 3000+ icons for intuitive design.
 
-### Android
+react-native-dropdown-picker (v5.4.6): Used for currency selection dropdowns.
 
-```sh
-# Using npm
-npm run android
+react-native-popover-view (v6.1.0): Adds confirmation dialogs (e.g., exit confirmation).
 
-# OR using Yarn
-yarn android
-```
+User Experience & Feedback
+react-native-toast-message (v2.3.3): Provides instant feedback (e.g., success/failure messages).
 
-### iOS
+react-native-safe-area-context (v5.5.2): Ensures UI adapts to safe areas (notch, status bar).
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+react-native-screens (v4.13.1): Improves navigation performance by using native primitives.
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+Animations & Gestures
+react-native-gesture-handler (v2.27.2): Handles complex gestures.
 
-```sh
-bundle install
-```
+react-native-reanimated (v4.0.1): Used for animations.
 
-Then, and every time you update your native dependencies, run:
+react-native-worklets (v0.4.0): Optimizes animations using worklets.
 
-```sh
-bundle exec pod install
-```
+Development Tools
+Jest (v29.6.3): Testing framework for unit & integration tests.
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+ESLint (v8.19.0): Enforces code quality and prevents bugs.
 
-```sh
-# Using npm
-npm run ios
+Prettier (v2.8.8): Maintains consistent code formatting.
 
-# OR using Yarn
-yarn ios
-```
+Babel: Enables support for modern JavaScript syntax.
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+Platform Configurations
+Android: Gradle & Kotlin for native modules.
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+iOS: Swift-based AppDelegate with CocoaPods for dependencies.
 
-## Step 3: Modify your app
+3. Project Architecture
+The app uses a component-based modular architecture:
 
-Now that you have successfully run the app, let's make changes!
+Modules:
+Authentication:
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+Handles login form validation with regex.
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+Provides secure navigation post-login.
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+Indicative DCI Prices:
 
-## Congratulations! :tada:
+Screen: Displays investment periods, expiry & maturity dates, target conversion rates, and enhanced rates.
 
-You've successfully run and modified your React Native App. :partying_face:
+Features:
 
-### Now what?
+Currency selection via DropDownPicker.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+Exit confirmation via Popover.
 
-# Troubleshooting
+Touchable rows: Pressing a rate navigates to the Dual Currency Investment form.
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+Dual Currency Investment Form:
 
-# Learn More
+Dynamic field mapping: Uses a JSON-driven approach to render form fields dynamically (reducing repetitive code).
 
-To learn more about React Native, take a look at the following resources:
+Pre-filled fields: Some values (e.g., target conversion rate, expiry date) are auto-passed via navigation params.
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
->>>>>>> bbf6e11 (Initial commit)
+Financial input handling: Handles numeric inputs (auto-stripping % signs and formatting decimals).
+
+Reusable Components:
+
+YieldSummaryBox: Displays calculated yields and net revenue with flags.
+
+Dynamic Form Renderer: Converts a JSON structure into TextInput fields automatically.
+
+4. Key Features Implemented
+Multi-currency support: USD, EUR, GBP, AUD, INR, JPY, etc.
+
+Interactive investment data: Users can explore different DCI rates and navigate to investment forms.
+
+Form automation: JSON-driven field generation for flexibility and easier updates.
+
+Data formatting:
+
+Strips % from inputs when needed.
+
+Formats numbers to fixed decimals (e.g., 2.90 → 2.900).
+
+Responsive design: Safe area handling, scrollable layouts, and adaptive UI for all devices.
+
+User confirmation flows: Exit popovers to prevent accidental actions.
+
+5. Development Workflow
+Version Control: Git & GitHub for source code management.
+
+Commit Standards: Commit messages follow semantic versioning (feat:, fix:, refactor:).
+
+Continuous Development: Uses Metro bundler for live reload and fast iteration.
+
