@@ -1,0 +1,208 @@
+{
+    "IndicativeDCIPrices": {
+        "InvestmentCurrency": "AUD",
+        "Underlying": "AUD-HYR",
+        "Currency": "AUD",
+        "SpotReference": "4.0330",
+        "TimeStamp": "12:18:15",
+        "InvestmentAmount": "100,000",
+        "ClientSegment": "Privilege Banking",
+        "InvestmentPeriods": [
+            {
+                "Period": "1W",
+                "ExpiryDate": "17-Jul-2024",
+                "MaturityDate": "19-Jul-2024",
+                "Rates": [
+                    {
+                        "TargetConversionRate": "4.0330",
+                        "EnhancedRate": "26.90%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0400",
+                        "EnhancedRate": "23.09%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0470",
+                        "EnhancedRate": "19.17%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0540",
+                        "EnhancedRate": "15.38%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0610",
+                        "EnhancedRate": "11.60%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0680",
+                        "EnhancedRate": "7.83%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0750",
+                        "EnhancedRate": "4.07%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0830",
+                        "EnhancedRate": "0.15%"
+                    }
+                ]
+            },
+            {
+                "Period": "2W",
+                "ExpiryDate": "24-Jul-2024",
+                "MaturityDate": "26-Jul-2024",
+                "Rates": [
+                    {
+                        "TargetConversionRate": "4.0330",
+                        "EnhancedRate": "19.74%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0400",
+                        "EnhancedRate": "17.57%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0470",
+                        "EnhancedRate": "15.49%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0540",
+                        "EnhancedRate": "13.89%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0610",
+                        "EnhancedRate": "12.29%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0680",
+                        "EnhancedRate": "10.69%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0750",
+                        "EnhancedRate": "7.33%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0830",
+                        "EnhancedRate": "6.7%"
+                    }
+                ]
+            },
+            {
+                "Period": "1M",
+                "ExpiryDate": "08-Aug-2024",
+                "MaturityDate": "12-Aug-2024",
+                "Rates": [
+                    {
+                        "TargetConversionRate": "4.0330",
+                        "EnhancedRate": "11.61%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0400",
+                        "EnhancedRate": "10.66%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0470",
+                        "EnhancedRate": "9.70%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0540",
+                        "EnhancedRate": "8.75%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0610",
+                        "EnhancedRate": "7.80%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0680",
+                        "EnhancedRate": "6.85%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0750",
+                        "EnhancedRate": "5.90%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0830",
+                        "EnhancedRate": "5.3%"
+                    }
+                ]
+            },
+            {
+                "Period": "3M",
+                "ExpiryDate": "09-Oct-2024",
+                "MaturityDate": "11-Oct-2024",
+                "Rates": [
+                    {
+                        "TargetConversionRate": "4.0330",
+                        "EnhancedRate": "12.44%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0400",
+                        "EnhancedRate": "11.66%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0470",
+                        "EnhancedRate": "10.89%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0540",
+                        "EnhancedRate": "10.14%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0610",
+                        "EnhancedRate": "9.39%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0680",
+                        "EnhancedRate": "8.64%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0750",
+                        "EnhancedRate": "7.90%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0830",
+                        "EnhancedRate": "7.16%"
+                    }
+                ]
+            },
+            {
+                "Period": "6M",
+                "ExpiryDate": "07-Jan-2025",
+                "MaturityDate": "09-Jan-2025",
+                "Rates": [
+                    {
+                        "TargetConversionRate": "4.0330",
+                        "EnhancedRate": "11.16%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0400",
+                        "EnhancedRate": "10.45%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0470",
+                        "EnhancedRate": "9.74%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0540",
+                        "EnhancedRate": "9.04%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0610",
+                        "EnhancedRate": "8.34%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0680",
+                        "EnhancedRate": "7.64%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0750",
+                        "EnhancedRate": "6.95%"
+                    },
+                    {
+                        "TargetConversionRate": "4.0830",
+                        "EnhancedRate": "6.26%"
+                    }
+                ]
+            }
+        ]
+    }
+}
