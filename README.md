@@ -117,7 +117,7 @@ Commit Standards: Commit messages follow semantic versioning (feat:, fix:, refac
 Continuous Development: Uses Metro bundler for live reload and fast iteration.
 
 ---
-1.Signin page with validation
+#1.Signin page with validation
 
 <img width="300" alt="Screenshot_1753843161" src="https://github.com/user-attachments/assets/f0a37b10-14c2-4efc-9c61-949f2113e80f" />
 
