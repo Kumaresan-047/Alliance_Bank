@@ -117,10 +117,52 @@ Commit Standards: Commit messages follow semantic versioning (feat:, fix:, refac
 Continuous Development: Uses Metro bundler for live reload and fast iteration.
 
 ---
-#1.Signin page with validation
+# 1.Signin page with validation
 
 <img width="300" alt="Screenshot_1753843161" src="https://github.com/user-attachments/assets/f0a37b10-14c2-4efc-9c61-949f2113e80f" />
 
 
+<img width="300" alt="Screenshot_1753843540" src="https://github.com/user-attachments/assets/a4025c90-e9bb-4276-b003-280f62343a6b" />
+
+
+### In this i checked the username and password field is required when it is empty while pressing without entering the credentials and also i have validated the username and password.
+
+# Here is the credentials for this application.
+
+## Username : *kumar_bank*
+## Password : *Encrypt@123*
+
+
+# 2.Indicative DCI prices page
+
+### In this page i created the prices list based on the investment period and each price is clickable to explore the dual currency invesment page with this data.
+
+
+<img width="300" alt="Screenshot_1753843175" src="https://github.com/user-attachments/assets/c836fcd9-5327-4ec8-96c8-ff4f7f01a341" />
+
+
+<img width="300"  alt="Screenshot_1753843181" src="https://github.com/user-attachments/assets/63ddb069-6325-4b57-9cbb-083c057cdc3c" />
+
+
+# 3.Dual Currency Invesment page
+
+### I created the design for this page and related data that i clicked in the prices page.
+
+<img width="300" alt="Screenshot_1753843205" src="https://github.com/user-attachments/assets/e467b163-191b-4fdf-8999-b9094fdf3eae" />
+
+
+<img width="300"  alt="Screenshot_1753843211" src="https://github.com/user-attachments/assets/bf17545f-f850-48b9-8e73-8c7d82e6bee4" />
+
+
+<img width="300"  alt="Screenshot_1753843221" src="https://github.com/user-attachments/assets/24016837-906a-4d0d-8c66-6d88a3ac7622" />
+
+
+<img width="300"  alt="Screenshot_1753843224" src="https://github.com/user-attachments/assets/90a55065-27c7-4d1b-aef2-9d4f4ae94126" />
+
+# 4.Confirmation popover for exit from the DCI prices page
+
+### Confirmation message for leaving the page to the signin page.
+
+<img width="300"  alt="Screenshot_1753843230" src="https://github.com/user-attachments/assets/9895b972-32c8-4ee0-9ec3-5a288d8f9b5d" />
 
 
